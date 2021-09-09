@@ -1,5 +1,7 @@
 import React from 'react'
+import Order from './Order'
 import Footer from './Footer'
+
 
 function Main() {
     return (
@@ -44,6 +46,7 @@ function Main() {
           </div>
             
           <hr />
+          <Order/>
           <Footer/>  
         </div>
     )

@@ -49,7 +49,45 @@ hr{
     border: 1px solid #ECECEC;
 }
 
-//Pagination
+///////////////////////////////////////////// Order
+
+.flex-Order{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 40px 60px 0px;
+  }
+  #help{
+      color: #439B83;
+      ;
+  }
+  .i-btn{
+      position: relative;
+      right: 10px;
+      color: #000000;
+      background: #ececec;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #ececec;
+      border-radius: 50%;
+      /* padding: 8px 12px; */
+      margin-bottom: 5px ;
+  }
+  //////////////////////////////////////  Order Headings
+  .flex-headings {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    color: #999999;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 40px;
+    /* width: 90%; */
+  }
+//////////////////////////////////////////  Footer/Pagination
+
 .pagination {
     display: flex;
     justify-content: flex-end;
