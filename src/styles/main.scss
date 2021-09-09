@@ -48,3 +48,28 @@ hr{
     margin: 30px;
     border: 1px solid #ECECEC;
 }
+
+//Pagination
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin: 40px 50px;
+  }
+  .pagination a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: #439B83;
+    color: white;
+    font-size: 14px;
+    border-radius: 50%;
+  }
+  .pagination a.inactive{
+      color: #999999;
+  }
+  .pagination a:hover:not(.active,.inactive) {
+      color: #439B83;
+  }
