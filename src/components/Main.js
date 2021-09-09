@@ -2,6 +2,10 @@ import React from 'react'
 import Order from './Order'
 import Footer from './Footer'
 
+// SVGs
+import EmailPhone from '../Assets/EmailPhone.svg'
+import Shipping from '../Assets/Shipping.svg'
+import Invoice from '../Assets/Invoice.svg'
 
 function Main() {
     return (
@@ -10,7 +14,7 @@ function Main() {
             <div className="card">
                 <div className="inline">
                     <span>
-                      <img src="EmailPhone.svg"/>
+                      <img src={EmailPhone}/>
                     </span>
                     <span>
                       <h3>Contact Anna</h3>
@@ -22,7 +26,7 @@ function Main() {
             <div className="card">
                 <div className="inline">
                     <span>
-                      <img src="../Assets/Shipping.svg"/>
+                      <img src={Shipping}/>
                     </span>
                     <span>
                       <h3>Shipping address</h3>
@@ -34,7 +38,7 @@ function Main() {
             <div className="card">
                 <div className="inline">
                     <span>
-                      <img src="../Assets/Invoice.svg"/>
+                      <img src={Invoice}/>
                     </span>
                     <span>
                       <h3>Invoice Address</h3>
