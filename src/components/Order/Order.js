@@ -9,7 +9,7 @@ function Order() {
         <div>
             <div className="flex-Order">
                 <div><h2>{customerFirstName}'s orders</h2></div>
-                <div id="help"><button class="i-btn">i</button>Help</div>
+                <div id="help"><button className="i-btn">i</button>Help</div>
             </div>
             <OrderList/>
         </div>

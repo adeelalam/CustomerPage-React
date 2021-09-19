@@ -72,7 +72,6 @@ hr{
       height: 16px;
       border: 1px solid #ececec;
       border-radius: 50%;
-      /* padding: 8px 12px; */
       margin-bottom: 5px ;
   }
   //////////////////////////////////////  Order Headings
@@ -84,10 +83,9 @@ hr{
     font-size: 14px;
     line-height: 22px;
     padding-top: 40px;
-    /* width: 90%; */
   }
   ///////////////////////////////////// Order List
-  .box{
+  .order__list{
     display: flex;
     background: #FFFFFF;
     padding: 2em;
