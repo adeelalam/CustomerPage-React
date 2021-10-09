@@ -1,0 +1,114 @@
+  .orderNumber{
+      display: flex;
+      align-items: center;
+  }
+  .orderNumberValue{
+    margin-right: 5px;
+  }
+  .butik{
+    display: flex;
+    align-items: center;
+  }
+  .svgButik{
+      margin-right:10px;
+  }
+  .paymentMethod{
+      display: flex;
+      align-items: center;
+  }
+  .svgPaymentMethod{
+      width: 40px;
+      height: auto;
+      padding: 5px;
+      margin: 0 12px 0 0;
+      border: 1px solid #ECECEC;
+      border-radius: 4px;
+  }
+  .online{
+    color:#222222;
+    background-color: #ECECEC;
+    border-radius: 5px;
+    padding: 20px 4px;
+    margin: 3px;
+    line-height: 22px;
+    vertical-align: bottom;
+    text-align: center;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  .inStore{
+    color:#ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 18px 4px;
+    margin: 3px;
+    line-height: 22px;
+    vertical-align: bottom;
+    text-align: center;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+  }
+  .manual{
+    color:#ffffff;
+    background-color:#F16500;
+    border-radius: 5px;
+    padding: 18px 4px;
+    margin: 3px;
+    line-height: 22px;
+    vertical-align: bottom;
+    text-align: center;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+  }
+  .paid::before{
+    content: '';
+    /* display: block; */
+    width: 10px;
+    height: 10px;
+    background: #64E1C3;
+    border-radius: 50%;
+    position: absolute;
+    margin: 14px -16px;
+  }
+  .inprogress::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #F16500;
+    border-radius: 50%;
+    position: absolute;
+    margin: 14px -16px;
+  }
+  .fail::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #FE1B1B;
+    border-radius: 50%;
+    position: absolute;
+    margin: 14px -16px;
+  }
+  .other::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: black;
+    /* border-radius: 50%; */
+    position: absolute;
+    margin: 14px -16px;
+  }
+  .pagination{
+    display: flex;
+    
+  }

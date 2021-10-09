@@ -21,38 +21,12 @@ nav h1 {
 }
 
 .main {
-  min-height: 100vh;
   background-color: #f9f9f9;
   /* background-color: #E5E5E5; */
 }
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  font-size: 14px;
-  line-height: 22px;
-  padding-top: 40px;
-}
-
-.flex-container h3 {
-  font-weight: 600;
-  color: #222222;
-}
-
-.flex-container p {
-  color: #5F5F5F;
-  font-weight: 500;
-}
-
-.inline span {
-  display: inline-flex;
-  padding: 2px;
-}
-
 hr {
-  width: 90%;
-  margin: 30px;
+  margin: 0 4em;
   border: 1px solid #ECECEC;
 }
 
@@ -62,16 +36,21 @@ hr {
   justify-content: space-between;
   font-size: 14px;
   line-height: 22px;
+  margin-top: 2rem;
   padding: 40px 60px 0px;
 }
 
 #help {
   color: #439B83;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .i-btn {
   position: relative;
   right: 10px;
+  font-size: 12px;
+  font-weight: 600;
   color: #000000;
   background: #ececec;
   width: 16px;
@@ -158,13 +137,6 @@ hr {
   left: 5px;
 }
 
-.pagination {
-  display: flex;
-  justify-content: flex-end;
-  font-weight: bold;
-  margin: 40px 50px;
-}
-
 .pagination a {
   color: black;
   padding: 10px 16px;
@@ -180,8 +152,4 @@ hr {
 
 .pagination a.inactive {
   color: #999999;
-}
-
-.pagination a:hover:not(.active, .inactive) {
-  color: #439B83;
 }/*# sourceMappingURL=main.css.map */

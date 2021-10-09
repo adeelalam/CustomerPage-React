@@ -11,7 +11,7 @@ function Order() {
                 <div><h2>{customerFirstName}'s orders</h2></div>
                 <div id="help"><button className="i-btn">i</button>Help</div>
             </div>
-            <OrderList/>
+            {/* <OrderList/> */}
         </div>
     )
 }

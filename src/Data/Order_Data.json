@@ -1,0 +1,16 @@
+[{"id":1,"order_type":"Online","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"UK","payment_method":"Invoice","payment_status":"Paid","amount":"2160 kr"},
+{"id":2,"order_type":"InStore","order_number":1234567890,"date_of_creation":"16 maj, 12:33","store":"Sweden","payment_method":"Visa, •••• 1234","payment_status":"In progress","amount":"3890 kr"},
+{"id":3,"order_type":"Manual","order_number":1234567890,"date_of_creation":"20 maj, 12:33","store":"Norway","payment_method":"Card, •••• 1234","payment_status":"Failed","amount":"1134 kr"},
+{"id":4,"order_type":"Online","order_number":1234567890,"date_of_creation":"24 maj, 12:33","store":"Sweden","payment_method":"Paypal","payment_status":"In progress","amount":"567 kr"},
+{"id":5,"order_type":"InStore","order_number":1234567890,"date_of_creation":"30 maj, 12:33","store":"Norway","payment_method":"Trustly","payment_status":"Paid","amount":"8970 kr"},
+{"id":6,"order_type":"Online","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"2222 kr"},
+{"id":10,"order_type":"InStore","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"0 kr"},
+{"id":11,"order_type":"Online","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"1000 kr"},
+{"id":12,"order_type":"InStore","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"1000 kr"},
+{"id":13,"order_type":"Online","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"0 kr"},
+{"id":6,"order_type":"Manual","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"2222 kr"},
+{"id":10,"order_type":"Online","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"0 kr"},
+{"id":11,"order_type":"Online","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"1000 kr"},
+{"id":12,"order_type":"InStore","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"1000 kr"},
+{"id":13,"order_type":"Online","order_number":1234567890,"date_of_creation":"05 maj, 12:33","store":"Sweden","payment_method":"Invoice","payment_status":"processing","amount":"0 kr"}
+]
